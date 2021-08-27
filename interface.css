@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+
+main{
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196)  ;
+}
+.section-left{ 
+    width: 30%;
+    height: 100%;
+    margin: 0px;
+    bottom: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; 
+ }
+
+.section-right{ 
+
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     background-image: url(images/salon.jpg);
+     width: 70%;
+     height: 100%; 
+     background-repeat: no-repeat;
+     background-size: cover; 
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(5, 36, 5, 0.644);
+}
+.nav{
+     display: flex; 
+    justify-content: center;
+    justify-content: space-around;
+    width: 70%;
+}
+h5{
+    padding: 0.5%;
+    
+}
+
+
+ .global{
+
+    display: flex;
+    height: 100%;
+}
+
+img{
+    width: 50px;
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    float: inline-start;
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.left{
+    margin-left: 90px;
+    margin-top: 300px;
+}
+
+.left p{
+    margin-bottom: 50px;
+}
+
+h5 a{
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.position-bas{
+    margin-left: 30rem;
+    background-color: #fff;
+    padding: 10px 70px;
+    align-self: flex-end;
+}
+
+.description h1{
+    text-transform: capitalize;
+    color: #164F3F; 
+}
+
+.description p{
+    text-transform: capitalize;
+    color: #49565D; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.description a{
+    text-decoration: none;
+    color: #164F3F; 
+}
+
+#creator{
+    font-size: 16px;
+    color: #92959C; 
+}
+
+
+.button{
+    width: 130px;   
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    background-color:rgba(5, 36, 5, 0.644); 
+    color: white;
+}
+.button:hover{
+     box-shadow: 4px 4px 4px black;
+}
+
+    
